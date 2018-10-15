@@ -7,21 +7,21 @@ using namespace std;
 
 int main()
 {
-	unsigned char in1, in2, in3;
+    unsigned char in1, in2, in3;
 
-	cout << "Bitte drei Zeichen eingeben: ";
-	cin >> in1 >> in2 >> in3;
-	
-	cout << "INPUT\tDECIMAL\tHEXADECIMAL" << endl;
-	cout << in1 << "\t",
-		cout << dec << static_cast<int>(in1) << "\t",
-		cout << hex << static_cast<int>(in1) << endl;
-	cout << in2 << "\t",
-		cout << dec << static_cast<int>(in2) << "\t",
-		cout << hex << static_cast<int>(in2) << endl;
-	cout << in3 << "\t",
-		cout << dec << static_cast<int>(in3) << "\t",
-		cout << hex << static_cast<int>(in3) << endl;
+    cout << "Bitte drei Zeichen eingeben: ";
+    cin >> in1 >> in2 >> in3;
 
-	return 0;
+    cout << "INPUT\tDECIMAL\tHEXADECIMAL" << endl;
+    cout << in1 << "\t",
+        cout << dec << static_cast<int>(in1) << "\t",
+        cout << hex << static_cast<int>(in1) << endl;
+    cout << in2 << "\t",
+        cout << dec << static_cast<int>(in2) << "\t",
+        cout << hex << static_cast<int>(in2) << endl;
+    cout << in3 << "\t",
+        cout << dec << static_cast<int>(in3) << "\t",
+        cout << hex << static_cast<int>(in3) << endl;
+
+    return 0;
 }
