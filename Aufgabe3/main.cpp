@@ -53,8 +53,8 @@ int main()
     cout << "Die Summe ist \t\t" << (num1 + num2 + num3) << endl;
     cout << "Der Mittelwert ist \t" << ((num1 + num2 + num3) / 3) << endl;
     cout << "Das Produkt ist \t" << (num1 * num2 * num3) << endl;
-    cout << "Der kleinste Wert ist\t" << small << endl;
-    cout << "Der groesste Wert ist\t" << big << endl;
+    cout << "Der kleinste Wert ist \t" << small << endl;
+    cout << "Der groesste Wert ist \t" << big << endl;
 
     // cout << "Der kleinste Wert ist \t" << (num1 < num2 ? (num1 < num3 ? num1 : num3) : (num2 < num3 ? num2 : num3)) << endl; // easy way to avoid nested if-statements - ternary operator
     // cout << "Der groesste Wert ist \t" << (num1 > num2 ? (num1 > num3 ? num1 : num3) : (num2 > num3 ? num2 : num3)) << endl; // is num1 < num2 ? (true) : (false)
